@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_player_plhdr","path":"sprites/spr_player_plhdr/spr_player_plhdr.yy",},"order":0,},
+    {"id":{"name":"obj_stapler","path":"objects/obj_stapler/obj_stapler.yy",},"order":9,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":1,},
     {"id":{"name":"obj_cheater","path":"objects/obj_cheater/obj_cheater.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":2,},

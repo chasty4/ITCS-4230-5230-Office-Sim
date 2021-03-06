@@ -41,3 +41,8 @@ if (throw_star) {
 		instance_create_layer(x,y,"Instances", obj_stars)
 	}
 }
+
+if keyboard_check_pressed(ord("E"))
+{
+	instance_create_layer(x, y, "Instances", obj_stapler)
+}
