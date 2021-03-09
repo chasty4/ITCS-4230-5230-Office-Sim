@@ -7,3 +7,6 @@ if (keyboard_check(ord("B"))) and spawn {
 	instance_create_layer(736,624,"Instances", obj_enemy)
 	
 }
+if (keyboard_check(vk_escape)){
+	game_restart()	
+}

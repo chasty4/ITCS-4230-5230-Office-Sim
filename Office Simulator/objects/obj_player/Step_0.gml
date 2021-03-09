@@ -19,6 +19,8 @@ if (keyboard_check(ord("W"))) {
 	}
 } 
 
+x = clamp(x, 8, room_width-sprite_width/2)
+
 if (!instance_place(x,y+1,obj_barrier)) {
 	gravity = 1
 } else {
