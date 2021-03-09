@@ -3,6 +3,9 @@
 
 
 productivity = clamp(productivity,0,100)
+if (productivity <= 0) {
+	hp = 0
+}
 
 //  horizontal movement
 if (keyboard_check(ord("D"))) {
