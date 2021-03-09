@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+productivity = clamp(productivity,0,100)
+
 //  horizontal movement
 if (keyboard_check(ord("D"))) {
 	x += move_spd

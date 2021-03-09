@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-hspeed = 2
+if (instance_exists(obj_player)) {
+	obj_player.productivity += productivity
+}
