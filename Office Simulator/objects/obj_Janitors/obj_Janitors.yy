@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "spr_stars_plhdr",
-    "path": "sprites/spr_stars_plhdr/spr_stars_plhdr.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickups",
-    "path": "folders/Objects/Pickups.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_throwingStar",
+  "name": "obj_Janitors",
   "tags": [],
   "resourceType": "GMObject",
 }

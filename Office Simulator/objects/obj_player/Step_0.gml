@@ -4,7 +4,12 @@
 
 productivity = clamp(productivity,0,100)
 if (productivity <= 0) {
-	hp = 0
+	hp -= 1
+}
+
+if (hp <= 0)
+{
+	instance_destroy()
 }
 
 //  horizontal movement

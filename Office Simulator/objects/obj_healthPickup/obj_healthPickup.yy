@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_stars_plhdr",
-    "path": "sprites/spr_stars_plhdr/spr_stars_plhdr.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_healthPickup","path":"objects/obj_healthPickup/obj_healthPickup.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +27,7 @@
     "path": "folders/Objects/Pickups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_throwingStar",
+  "name": "obj_healthPickup",
   "tags": [],
   "resourceType": "GMObject",
 }
