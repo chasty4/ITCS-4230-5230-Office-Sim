@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d4b12513-c8f5-459c-9d12-c04633dd11fa","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d4b12513-c8f5-459c-9d12-c04633dd11fa","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},"LayerId":{"name":"7033f902-7d93-441d-b13a-2abb35c5c06f","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_plhdr","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},"resourceVersion":"1.0","name":"d4b12513-c8f5-459c-9d12-c04633dd11fa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"13e35f45-f424-431a-922a-51c4ef90e719","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"13e35f45-f424-431a-922a-51c4ef90e719","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"LayerId":{"name":"76e595c8-db44-41bc-a62d-6b18edc0fc95","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_officeWorker","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"resourceVersion":"1.0","name":"13e35f45-f424-431a-922a-51c4ef90e719","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_enemy_plhdr","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},
+    "spriteId": {"name":"spr_officeWorker","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1a4bb7fe-e68b-4c6a-813c-840ef3f7595d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d4b12513-c8f5-459c-9d12-c04633dd11fa","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0ce15bc8-a14c-42e2-8763-bfc54a2c7b90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"13e35f45-f424-431a-922a-51c4ef90e719","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,25 +54,25 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 0,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_enemy_plhdr","path":"sprites/spr_enemy_plhdr/spr_enemy_plhdr.yy",},
+    "parent": {"name":"spr_officeWorker","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_enemy_plhdr",
+    "name": "spr_officeWorker",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7033f902-7d93-441d-b13a-2abb35c5c06f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76e595c8-db44-41bc-a62d-6b18edc0fc95","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Enemy Sprites",
     "path": "folders/Sprites/Enemy Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_enemy_plhdr",
+  "name": "spr_officeWorker",
   "tags": [],
   "resourceType": "GMSprite",
 }

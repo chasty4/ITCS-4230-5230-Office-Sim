@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(instance_exists(obj_player))
-{
-	obj_player.hp -= 10
-}
+scr_hurtPlayer(5)
+instance_destroy()

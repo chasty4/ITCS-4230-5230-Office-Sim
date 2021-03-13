@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_middleManager",
+    "path": "sprites/spr_middleManager/spr_middleManager.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +24,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_middleManagers","path":"objects/obj_middleManagers/obj_middleManagers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_middleManagers","path":"objects/obj_middleManagers/obj_middleManagers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [

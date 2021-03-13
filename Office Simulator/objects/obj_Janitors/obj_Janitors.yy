@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_janitors",
+    "path": "sprites/spr_janitors/spr_janitors.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_FactoryWorker",
+    "path": "sprites/spr_FactoryWorker/spr_FactoryWorker.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
