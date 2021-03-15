@@ -10,3 +10,13 @@ if (keyboard_check(ord("B"))) and spawn {
 if (keyboard_check(vk_escape)){
 	game_restart()	
 }
+
+if (keyboard_check(ord("L"))){
+	if !obj_player.invinsible{
+		obj_player.invinsible = true
+		obj_player.lose_prod = false
+	} else {
+		obj_player.invinsible = false
+		obj_player.lose_prod = true
+	}
+}

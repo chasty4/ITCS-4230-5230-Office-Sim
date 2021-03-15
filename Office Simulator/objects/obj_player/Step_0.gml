@@ -2,9 +2,18 @@
 // You can write your code in this editor
 
 
+
+
 productivity = clamp(productivity,0,100)
-if (productivity <= 0) {
+if (productivity <= 0) and lose_prod{
 	hp -= 1
+}
+
+if invinsible{
+	hp = 100	
+}
+if room = 0 {
+	alarm[2] = -1	
 }
 
 if (hp <= 0)
@@ -42,7 +51,7 @@ if (!instance_place(x,y+1,obj_barrier)) {
 if (shoot_staple) {
 	if (keyboard_check(ord("I"))){
 		shoot_staple = false
-		alarm[0] = room_speed / 1.5
+		alarm[0] = room_speed / 3
 		instance_create_layer(x,y,"Instances", obj_staple)	
 
 	}

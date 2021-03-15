@@ -4,5 +4,6 @@ function scr_hurtPlayer(damage){
 	if instance_exists(obj_player)
 	{
 		obj_player.hp -= damage
+		obj_player.damage_rec += damage
 	}
 }
