@@ -5,3 +5,16 @@ if (!instance_place(x,y+1,obj_barrier)) {
 } else {
 	gravity = 0	
 }
+
+if state = enemyStates.idle
+{
+	x -= enemySpeed
+}
+
+if state = enemyStates.chase
+{
+	if instance_exists(obj_player)
+	{
+		move_towards_point(obj_player.x, y, chaseSpeed)
+	}
+}

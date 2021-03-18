@@ -25,6 +25,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_FactoryWorker","path":"objects/obj_FactoryWorker/obj_FactoryWorker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_FactoryWorker","path":"objects/obj_FactoryWorker/obj_FactoryWorker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blocker","path":"objects/obj_blocker/obj_blocker.yy",},"parent":{"name":"obj_FactoryWorker","path":"objects/obj_FactoryWorker/obj_FactoryWorker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"distance_to_player","tags":[],"resourceType":"GMObjectProperty",},

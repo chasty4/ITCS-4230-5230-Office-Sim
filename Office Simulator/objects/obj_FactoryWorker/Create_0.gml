@@ -4,7 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-if distance_to_point(obj_player.x, obj_player.y) < viewRange
-{
-	state = enemyStates.chase
-}
+path_start(factoryWorkerPath, enemySpeed, path_action_reverse, true)
