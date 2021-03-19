@@ -6,6 +6,7 @@ enum enemyStates
 	chase
 }
 
+hspeed = 2
 state = enemyStates.idle
 viewRange = 640
 chaseSpeed = 3

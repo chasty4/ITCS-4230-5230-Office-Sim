@@ -8,3 +8,12 @@ if keyboard_check_pressed(ord("N"))
 {
 	room_goto_next()
 }
+if (keyboard_check(ord("L"))){
+	if !obj_player.invinsible{
+		obj_player.invinsible = true
+		obj_player.lose_prod = false
+	} else {
+		obj_player.invinsible = false
+		obj_player.lose_prod = true
+	}
+}

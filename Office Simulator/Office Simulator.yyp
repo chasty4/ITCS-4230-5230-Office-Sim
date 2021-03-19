@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"ts_cafeteria","path":"tilesets/ts_cafeteria/ts_cafeteria.yy",},"order":0,},
     {"id":{"name":"obj_healthPickup","path":"objects/obj_healthPickup/obj_healthPickup.yy",},"order":1,},
+    {"id":{"name":"obj_elevator","path":"objects/obj_elevator/obj_elevator.yy",},"order":25,},
     {"id":{"name":"spr_officeWorker","path":"sprites/spr_officeWorker/spr_officeWorker.yy",},"order":4,},
     {"id":{"name":"obj_officeDrones","path":"objects/obj_officeDrones/obj_officeDrones.yy",},"order":2,},
     {"id":{"name":"spr_FactoryWorker","path":"sprites/spr_FactoryWorker/spr_FactoryWorker.yy",},"order":1,},
@@ -46,6 +47,7 @@
     {"id":{"name":"obj_boss_projectiles","path":"objects/obj_boss_projectiles/obj_boss_projectiles.yy",},"order":22,},
     {"id":{"name":"spr_enemyStaples","path":"sprites/spr_enemyStaples/spr_enemyStaples.yy",},"order":7,},
     {"id":{"name":"spr_stars_plhdr","path":"sprites/spr_stars_plhdr/spr_stars_plhdr.yy",},"order":4,},
+    {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},"order":21,},
     {"id":{"name":"spr_background_cafeteria","path":"sprites/spr_background_cafeteria/spr_background_cafeteria.yy",},"order":4,},
     {"id":{"name":"ts_office","path":"tilesets/ts_office/ts_office.yy",},"order":2,},
     {"id":{"name":"spr_boss_plhdr","path":"sprites/spr_boss_plhdr/spr_boss_plhdr.yy",},"order":0,},
@@ -78,8 +80,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_FactoryFloor","path":"rooms/rm_FactoryFloor/rm_FactoryFloor.yy",},},
     {"roomId":{"name":"rm_Cafeteria","path":"rooms/rm_Cafeteria/rm_Cafeteria.yy",},},
+    {"roomId":{"name":"rm_FactoryFloor","path":"rooms/rm_FactoryFloor/rm_FactoryFloor.yy",},},
     {"roomId":{"name":"rm_Office","path":"rooms/rm_Office/rm_Office.yy",},},
     {"roomId":{"name":"rm_Boss","path":"rooms/rm_Boss/rm_Boss.yy",},},
     {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},

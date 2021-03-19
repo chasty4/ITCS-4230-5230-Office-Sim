@@ -6,10 +6,7 @@ if (!instance_place(x,y+1,obj_barrier)) {
 	gravity = 0	
 }
 
-if state = enemyStates.idle
-{
-	x -= enemySpeed
-}
+
 
 if state = enemyStates.chase
 {

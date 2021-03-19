@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-path_start(factoryWorkerPath, enemySpeed, path_action_reverse, true)
+//path_start(factoryWorkerPath, enemySpeed, path_action_reverse, true)
