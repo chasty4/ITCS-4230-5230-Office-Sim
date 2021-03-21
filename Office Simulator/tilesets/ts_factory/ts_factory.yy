@@ -1,5 +1,4 @@
 {
-  "name": "ts_factory",
   "spriteId": {
     "name": "spr_tileset_factory",
     "path": "sprites/spr_tileset_factory/spr_tileset_factory.yy",
@@ -181,6 +180,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_factory",
   "tags": [],
   "resourceType": "GMTileSet",
 }

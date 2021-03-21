@@ -1,5 +1,4 @@
 {
-  "name": "ts_cafeteria",
   "spriteId": {
     "name": "spr_tileset_cafeteria",
     "path": "sprites/spr_tileset_cafeteria/spr_tileset_cafeteria.yy",
@@ -181,6 +180,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_cafeteria",
   "tags": [],
   "resourceType": "GMTileSet",
 }

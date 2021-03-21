@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Path4","path":"paths/Path4/Path4.yy",},"order":4,},
     {"id":{"name":"ts_cafeteria","path":"tilesets/ts_cafeteria/ts_cafeteria.yy",},"order":0,},
     {"id":{"name":"obj_healthPickup","path":"objects/obj_healthPickup/obj_healthPickup.yy",},"order":1,},
     {"id":{"name":"obj_elevator","path":"objects/obj_elevator/obj_elevator.yy",},"order":25,},
@@ -62,6 +63,7 @@
     {"id":{"name":"choose_attack","path":"scripts/choose_attack/choose_attack.yy",},"order":1,},
     {"id":{"name":"spr_boss_stun_plhdr","path":"sprites/spr_boss_stun_plhdr/spr_boss_stun_plhdr.yy",},"order":1,},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":1,},
+    {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},"order":3,},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":20,},
     {"id":{"name":"ts_factory","path":"tilesets/ts_factory/ts_factory.yy",},"order":1,},
     {"id":{"name":"rm_Cafeteria","path":"rooms/rm_Cafeteria/rm_Cafeteria.yy",},"order":0,},

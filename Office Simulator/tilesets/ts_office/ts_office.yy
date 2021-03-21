@@ -1,5 +1,4 @@
 {
-  "name": "ts_office",
   "spriteId": {
     "name": "spr_tileset_office",
     "path": "sprites/spr_tileset_office/spr_tileset_office.yy",
@@ -181,6 +180,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_office",
   "tags": [],
   "resourceType": "GMTileSet",
 }
