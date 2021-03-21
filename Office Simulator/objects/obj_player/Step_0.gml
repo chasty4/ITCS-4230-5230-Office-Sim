@@ -19,6 +19,7 @@ if room = 0 {
 if (hp <= 0)
 {
 	instance_destroy()
+	room_goto("rm_Lose")
 }
 
 //  horizontal movement

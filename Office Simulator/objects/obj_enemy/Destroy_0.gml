@@ -2,4 +2,5 @@
 // You can write your code in this editor
 if (instance_exists(obj_player)) {
 	obj_player.productivity += productivity
+	score += enemyScore
 }

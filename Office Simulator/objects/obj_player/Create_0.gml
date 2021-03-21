@@ -7,6 +7,7 @@ shoot_staple = true
 throw_star = false
 hp = 100
 productivity = 55
+score = 0
 alarm[2] = room_speed * 2
 invinsible = false
 lose_prod = true
