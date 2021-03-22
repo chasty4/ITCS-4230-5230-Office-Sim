@@ -19,7 +19,6 @@ if room = 0 {
 if (hp <= 0)
 {
 	instance_destroy()
-	room_goto("rm_Lose")
 }
 
 //  horizontal movement
@@ -34,7 +33,7 @@ if (keyboard_check(ord("A"))) {
 }
 
 // vertical movement
-if (keyboard_check(ord("W"))) {
+if (keyboard_check(ord("W"))) and !at_elevator{
 	if (instance_place(x,y+1,obj_barrier)) {
 		vspeed = jump_height
 	}

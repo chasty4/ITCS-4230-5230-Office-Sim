@@ -3,6 +3,6 @@
 
 chasing = false
 hspeed = 2
-viewRange = 640
+viewRange = 200
 chaseSpeed = 3
 

@@ -1,0 +1,1 @@
+set_text("Hello World");

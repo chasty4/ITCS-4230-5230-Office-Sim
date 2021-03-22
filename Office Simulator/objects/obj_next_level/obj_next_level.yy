@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite25",
-    "path": "sprites/Sprite25/Sprite25.yy",
+    "name": "spr_cash_1",
+    "path": "sprites/spr_cash_1/spr_cash_1.yy",
   },
   "solid": false,
   "visible": false,
@@ -22,7 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"change_y","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+        "GMRoom",
+      ],"resourceVersion":"1.0","name":"next_room","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elevator",
+  "name": "obj_next_level",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_hurtPlayer()
+room_goto(obj_next_level.next_room)
