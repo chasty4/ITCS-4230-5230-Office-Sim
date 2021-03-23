@@ -1,0 +1,1 @@
+set_text("I'm done working for him")

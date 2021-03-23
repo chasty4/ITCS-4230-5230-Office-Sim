@@ -1,1 +1,1 @@
-room_goto(rm_Cafeteria)
+set_text("That was the final straw.")

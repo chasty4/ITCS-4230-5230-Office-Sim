@@ -1,1 +1,1 @@
-set_text("Lets see if this works");
+set_text("Nothing was wrong, until...");

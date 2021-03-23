@@ -10,8 +10,16 @@ if (productivity <= 0) and lose_prod{
 }
 
 if invinsible{
-	hp = 100	
+	hp = 100
+	
 }
+if subtract_prod and lose_prod{
+	productivity -= 1
+	subtract_prod = false
+	alarm[2] = room_speed * 2
+}
+
+
 if room = 0 {
 	alarm[2] = -1	
 }
