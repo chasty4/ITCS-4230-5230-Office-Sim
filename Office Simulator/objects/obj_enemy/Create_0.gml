@@ -10,3 +10,4 @@ hspeed = 2
 state = enemyStates.idle
 viewRange = 640
 chaseSpeed = 3
+damage_player = true

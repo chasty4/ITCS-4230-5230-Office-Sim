@@ -1,3 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_play_sound(snd_background, 10, true)
+
+shader_set(Shader1)
+
+draw_self()
+
+shader_reset()

@@ -3,7 +3,9 @@
 hspeed = 0
 if (attacks == 1) {
 	num_of_charges++
-	sprite_index = spr_boss_stun_plhdr
+	//sprite_index = spr_boss_stun_plhdr
+	stunned = true
+	
 	if (x > obj_divider.x){
 		x -= 8
 	} else {

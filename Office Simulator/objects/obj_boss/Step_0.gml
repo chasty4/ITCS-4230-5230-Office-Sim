@@ -72,7 +72,7 @@ if (attacks = 2) {
 	}else {
 	attacks = 0
 	num_of_jumps = 0
-	alarm[3] = room_speed * 5
+	alarm[3] = room_speed * 3
 	}
 }
 
@@ -83,5 +83,5 @@ if (attacks = 3){
 	}
 	angle = 0
 	attacks = 0
-	alarm[3] = room_speed * 5
+	alarm[3] = room_speed * 3
 }

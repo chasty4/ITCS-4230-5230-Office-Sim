@@ -10,6 +10,8 @@ draw_rectangle(x-margin, y-margin, x+text_width+margin, y+text_height+margin, fa
 draw_set_color(c_black)
 draw_text(x,y,new_text)
 
+/*
 draw_text(x+20, y+30, timeline_position)
 draw_text(x+40, y+30, timeline_max_moment(timeline_index))
 draw_text(x+60, y+30, timeline_max_moment(timeline_index)+1)
+*/

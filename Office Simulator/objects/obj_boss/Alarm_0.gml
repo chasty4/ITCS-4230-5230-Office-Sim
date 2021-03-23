@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (num_of_charges < charge-1){
-	sprite_index = spr_boss_plhdr
+	//sprite_index = spr_boss_plhdr
+	stunned = false
 	image_xscale *= -1
 	hspeed = charge_speed * image_xscale
 	

@@ -17,3 +17,7 @@ if (keyboard_check_pressed(ord("L"))){
 		obj_player.lose_prod = true
 	}
 }
+
+if (keyboard_check_pressed(ord("K"))) {
+	obj_player.has_stars = true
+}
