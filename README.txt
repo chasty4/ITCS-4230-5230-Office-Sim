@@ -1,3 +1,11 @@
+Office Simulator
+
+By:
+Christian Hasty
+Hemdeep Thakor
+Rohit Rathor
+Roy Ulrichiii
+
 Controls:
 Move Left: A
 Move Right: D
@@ -5,7 +13,7 @@ Jump: W
 
 Weapons:
 Shoot Staple: I
-Throw paper star: O
+Throw paper star: O (obtained from pick-up)
 
 At elevator/door:
 Space to ride
@@ -42,6 +50,6 @@ biten: https://www.istockphoto.com/photo/bitten-sandwich-isolated-with-clipping-
 whole: https://www.istockphoto.com/photo/lunch-gm140395306-2738698
 
 
-sprites: made my Hemdeep Thakor
+sprites: made my Hemdeep Thakor (2021)
 
-backgrounds: made by Vernard Ulrich III
+backgrounds: made by Roy Ulrichiii (2021)
