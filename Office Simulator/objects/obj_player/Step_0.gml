@@ -33,11 +33,18 @@ if (hp <= 0)
 if (keyboard_check(ord("D"))) {
 	x += move_spd
 	image_xscale = 1
+	image_speed = .5
 }
 
 if (keyboard_check(ord("A"))) {
 	x -= move_spd
 	image_xscale = -1
+	image_speed = .5
+}
+
+if (!keyboard_check(ord("A")) and !keyboard_check(ord("D"))) {
+	image_speed = 0
+	image_index = 0
 }
 
 // vertical movement
@@ -64,17 +71,13 @@ if (shoot_staple) {
 
 	}
 }
-if (throw_star) {
+if (throw_star) and (obj_UI.has_stars){
 	if (keyboard_check(ord("O"))){
-		if (star_count > 0) {
-		throw_star = false
-		alarm[1] = room_speed / 2
-		instance_create_layer(x,y,"Instances", obj_stars)
+		if (obj_UI.stars_count > 0) {
+			obj_UI.stars_count--
+			throw_star = false
+			alarm[1] = room_speed / 2
+			instance_create_layer(x,y,"Instances", obj_stars)
 		}
 	}
-}
-
-if keyboard_check_pressed(ord("E"))
-{
-	instance_create_layer(x, y, "Instances", obj_stapler)
 }

@@ -7,7 +7,7 @@ if (num_of_charges < charge-1){
 	hspeed = charge_speed * image_xscale
 	
 } else {
-	sprite_index = spr_boss_plhdr
+	sprite_index = spr_boss
 	
 	attacks = 0
 	num_of_charges = 0

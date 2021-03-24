@@ -5,4 +5,5 @@ chasing = false
 hspeed = 2
 viewRange = 200
 chaseSpeed = 3
+damage_pl = true
 

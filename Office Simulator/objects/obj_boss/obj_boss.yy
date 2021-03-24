@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boss_plhdr",
-    "path": "sprites/spr_boss_plhdr/spr_boss_plhdr.yy",
+    "name": "spr_boss",
+    "path": "sprites/spr_boss/spr_boss.yy",
   },
   "solid": false,
   "visible": true,

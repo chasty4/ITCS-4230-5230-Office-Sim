@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_janitors",
-    "path": "sprites/spr_janitors/spr_janitors.yy",
+    "name": "spr_janitor",
+    "path": "sprites/spr_janitor/spr_janitor.yy",
   },
   "solid": false,
   "visible": true,

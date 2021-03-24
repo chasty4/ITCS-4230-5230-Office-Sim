@@ -5,6 +5,16 @@ if instance_exists(obj_player)
 	//health
 	draw_healthbar(16, 16, 144, 32, obj_player.hp, c_black, c_red, c_lime, 0, true, true)
 	draw_healthbar(16, 40, 144, 56, obj_player.productivity, c_black, c_white,c_white,0,true,true)
-	draw_text_color(55, 55, "Score: " + string(score), c_black, c_black, c_black, 0, 1)
+	if room != rm_Boss {
+		draw_text_color(55, 55, "Score: " + string(score), c_black, c_black, c_black, 0, 1)
+		draw_text_color(55, 71, "Stars: " + string(stars_count), c_black, c_black, c_black, 0, 1)
+		draw_text(55, 87, has_stars)
+	} else {
+		draw_text_color(55, 55, "Score: " + string(score), c_white, c_white, c_white, 0, 1)
+		draw_text_color(55, 71, "Stars: " + string(stars_count), c_white, c_white, c_white, 0, 1)
+		draw_text(55, 87, has_stars)
+	}
+	
+	
 
 }

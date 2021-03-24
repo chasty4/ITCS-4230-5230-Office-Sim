@@ -14,6 +14,6 @@ attacks = 0
 
 num_of_charges = 0
 num_of_jumps = 0
-attacking = false
+attacking = true
 idc = 0
 angle = 0

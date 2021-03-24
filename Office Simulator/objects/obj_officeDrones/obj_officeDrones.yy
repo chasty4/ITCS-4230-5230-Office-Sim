@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_officeWorker",
-    "path": "sprites/spr_officeWorker/spr_officeWorker.yy",
+    "name": "spr_office_worker",
+    "path": "sprites/spr_office_worker/spr_office_worker.yy",
   },
   "solid": false,
   "visible": true,

@@ -5,6 +5,7 @@ enum enemyStates
 	idle,
 	chase
 }
+image_speed = .5;
 
 hspeed = 2
 state = enemyStates.idle

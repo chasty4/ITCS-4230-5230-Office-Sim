@@ -43,10 +43,15 @@ if (keyboard_check(vk_left)) {
 	attacks = 3
 }
 */
+if (attacks != 1) {
+	image_index = 0
+	image_speed = 0
+}
 
 
-if (attacks = 1) and sprite_index = spr_boss_plhdr{
+if (attacks = 1) and sprite_index = spr_boss{
 	hspeed = charge_speed * image_xscale
+	image_speed = .5
 }
 
 
