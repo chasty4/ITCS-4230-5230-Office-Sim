@@ -4,5 +4,5 @@
 if damage_player {
 	scr_hurtPlayer(10)
 	damage_player = false
-	alarm[0] = room_speed
+	alarm[0] = room_speed * 2
 }

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_coffee",
+    "path": "sprites/spr_coffee/spr_coffee.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

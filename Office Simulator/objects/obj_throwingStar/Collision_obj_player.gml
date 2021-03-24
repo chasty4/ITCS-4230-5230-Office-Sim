@@ -1,7 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(instance_exists(obj_player))
-{
-	obj_Player.hp = 100
-	instance_destroy(self)
-}
+obj_player.star_count += 10

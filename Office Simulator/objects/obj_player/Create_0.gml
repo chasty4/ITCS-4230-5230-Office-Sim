@@ -5,6 +5,7 @@ has_stapler = true
 has_stars = false
 shoot_staple = true
 throw_star = false
+star_count = 0
 hp = 100
 productivity = 55
 //alarm[2] = room_speed * 2

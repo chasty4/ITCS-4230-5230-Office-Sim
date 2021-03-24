@@ -66,9 +66,11 @@ if (shoot_staple) {
 }
 if (throw_star) {
 	if (keyboard_check(ord("O"))){
+		if (star_count > 0) {
 		throw_star = false
 		alarm[1] = room_speed / 2
 		instance_create_layer(x,y,"Instances", obj_stars)
+		}
 	}
 }
 
