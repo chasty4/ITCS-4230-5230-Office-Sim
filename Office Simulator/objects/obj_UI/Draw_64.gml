@@ -8,11 +8,11 @@ if instance_exists(obj_player)
 	if room != rm_Boss {
 		draw_text_color(55, 55, "Score: " + string(score), c_black, c_black, c_black, 0, 1)
 		draw_text_color(55, 71, "Stars: " + string(stars_count), c_black, c_black, c_black, 0, 1)
-		draw_text(55, 87, has_stars)
+		//draw_text(55, 87, has_stars)
 	} else {
 		draw_text_color(55, 55, "Score: " + string(score), c_white, c_white, c_white, 0, 1)
 		draw_text_color(55, 71, "Stars: " + string(stars_count), c_white, c_white, c_white, 0, 1)
-		draw_text(55, 87, has_stars)
+		//draw_text(55, 87, has_stars)
 	}
 	
 	
