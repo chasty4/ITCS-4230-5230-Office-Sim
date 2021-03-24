@@ -19,5 +19,6 @@ if (keyboard_check_pressed(ord("L"))){
 }
 
 if (keyboard_check_pressed(ord("K"))) {
-	obj_player.has_stars = true
+	stars_count += 10
+	has_stars = true
 }
